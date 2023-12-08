@@ -1,0 +1,25 @@
+@mixin boderoutline {
+  border: none;
+  outline: none;
+}
+@mixin absoluteCenter($direction: "centerY") {
+  position: absolute;
+  @if $direction == "centerX" {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @if $direction == "centerY" {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @if $direction == "center" {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCSS</title>
+    <link rel="stylesheet" href="./assert/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Seaweed+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-box--img">
+        <img src="./assert/image/Logo.png" alt="" />
+      </div>
+      <ul class="header-nav">
+        <li>home</li>
+        <li>review</li>
+        <li>about us</li>
+        <li>contact us</li>
+      </ul>
+      <button class="header-box--subnav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul>
+          <li>home</li>
+          <li>review</li>
+          <li>about us</li>
+          <li>contact us</li>
+        </ul>
+      </button>
+
+      <div class="header-button">
+        <button>Sign Up</button>
+        <div class="header-button-box--img">
+          <img src="./assert/image/Cart.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <div class="introduce">
+        <div class="introduce-first">
+          <div class="introduce-first--text">
+            <span>Hungry?</span>
+            <h1>Wait a minute for delicous.</h1>
+            <span
+              >Best cooks and best delivery guys all at your service. Hot tasty
+              food will reach you in 20mins.</span
+            >
+            <div class="box-search">
+              <input type="text" placeholder="Enter your delivery location" />
+              <img src="./assert/image/Icon.png" alt="" />
+              <button>
+                <p>Discover</p>
+                <img src="./assert/image/Icon1.png" alt="" />
+              </button>
+            </div>
+            <p>Already member of our communty? <a href="">Sign in</a></p>
+          </div>
+
+          <div class="introduce-first-img">
+            <img src="./assert/image/img.png" alt="" />
+          </div>
+        </div>
+        <div class="introduce-second">
+          <div class="introduce-second--heading">
+            <div class="second--heading__text">
+              <p>Food near me</p>
+              <img src="./assert/image/Icon.svg" alt="" />
+            </div>
+            <div class="box-button">
+              <button>
+                <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-chevron-up fa-rotate-90"></i>
+              </button>
+            </div>
+          </div>
+          <div class="introduce-second--product">
+            <div class="product-items">
+              <h1>Pizza</h1>
+              <div class="product-items--price">
+                <p>Starting</p>
+                <p>$14.00</p>
+              </div>
+              <img src="./assert/image/Image1.png" alt="" />
+            </div>
+            <div class="product-items">
+              <h1>Drinks</h1>
+              <div class="product-items--price">
+                <p>Starting</p>
+                <p>$2.00</p>
+              </div>
+              <img src="./assert/image/Image2.png" alt="" />
+            </div>
+            <div class="product-items">
+              <h1>F. Chiken</h1>
+              <div class="product-items--price">
+                <p>Starting</p>
+                <p>$4.50</p>
+              </div>
+              <img src="./assert/image/Image3.png" alt="" />
+            </div>
+            <div class="product-items">
+              <h1>French F.</h1>
+              <div class="product-items--price">
+                <p>Starting</p>
+                <p>$8.00</p>
+              </div>
+              <img style="top: -40px" src="./assert/image/Image4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="address">
+        <p class="address-title--1">Hungry?</p>
+        <h1 class="address-title--2">Wait a minute for delicious.</h1>
+        <div class="address-box">
+          <div class="box easy">
+            <div class="box-img">
+              <img src="./assert/image/Icon-address-1.png" alt="" />
+            </div>
+            <p>Easy to order</p>
+            <span
+              >n restaurant-controlled online food ordering, the restaurant
+              ..</span
+            >
+          </div>
+          <div class="box live">
+            <div class="box-img">
+              <img src="./assert/image/Icon-address-2.png" alt="" />
+            </div>
+            <p>Live Order</p>
+            <span
+              >In addition to paying for the food, customers will often have to
+              pay ..</span
+            >
+          </div>
+          <div class="box best">
+            <div class="box-img">
+              <img src="./assert/image/Icon-address-3.png" alt="" />
+            </div>
+            <p>Best Quality</p>
+            <span
+              >Grocery delivery companies will deliver groceries, pre-prep ..
+              ..</span
+            >
+          </div>
+        </div>
+        <div class="address-banner">
+          <div class="banner-text">
+            <h1>Have you got our offer?</h1>
+            <p>
+              Best cooks and best delivery guys all at your service. Hot tasty
+              food
+            </p>
+          </div>
+          <img src="./assert/image/address-banner-icon1.png" alt="" />
+          <img src="./assert/image/Abstract1.png" alt="" />
+          <img src="./assert/image/address-banner-icon2.png" alt="" />
+          <p>50%</p>
+          <p>Off</p>
+          <img src="./assert/image/address-banner-icon3.png" alt="" />
+          <img src="./assert/image/Abstract.png" alt="" />
+        </div>
+      </div>
+
+      <div class="product">
+        <p class="product-title-1">Popular Menu</p>
+        <h1 class="product-title-2">Wait a minute for delicious.</h1>
+
+        <div class="product-list">
+          <div class="product-item">
+            <div class="box-img-item">
+              <img src="./assert/image/Image-product-item1.png" alt="" />
+            </div>
+            <img src="./assert/image/Review.png" alt="" />
+            <h3>New York-Style pizza</h3>
+            <p>
+              Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.
+            </p>
+            <div class="box-price-item">
+              <p>$7.10</p>
+              <div class="box-button-item">
+                <button>
+                  <img src="./assert/image/Favorite icon.svg" alt="" />
+                </button>
+                <button>
+                  <img src="./assert/image/ic_share_48px 1.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="box-img-item">
+              <img src="./assert/image/Image-product-item2.png" alt="" />
+            </div>
+            <img src="./assert/image/Review.png" alt="" />
+            <h3>Bento Ekiben Makunchi ..</h3>
+            <p>
+              Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.
+            </p>
+            <div class="box-price-item">
+              <p>$6.40</p>
+              <div class="box-button-item">
+                <button>
+                  <img src="./assert/image/Favorite icon.svg" alt="" />
+                </button>
+                <button>
+                  <img src="./assert/image/ic_share_48px 1.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="box-img-item">
+              <img src="./assert/image/Image-product-item3.png" alt="" />
+            </div>
+            <img src="./assert/image/Review.png" alt="" />
+            <h3>Humburger Veggei ..</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <div class="box-price-item">
+              <p>$4.80</p>
+              <div class="box-button-item">
+                <button>
+                  <img src="./assert/image/Favorite icon.svg" alt="" />
+                </button>
+                <button>
+                  <img src="./assert/image/ic_share_48px 1.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="box-img-item">
+              <img src="./assert/image/Image-product-item4.png" alt="" />
+            </div>
+            <img src="./assert/image/Review.png" alt="" />
+            <h3>Indian Cusine Briyani Buffet</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <div class="box-price-item">
+              <p>$5.10</p>
+              <div class="box-button-item">
+                <button>
+                  <img src="./assert/image/Favorite icon.svg" alt="" />
+                </button>
+                <button>
+                  <img src="./assert/image/ic_share_48px 1.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="box-img-item">
+              <img src="./assert/image/Image-product-item5.png" alt="" />
+            </div>
+            <img src="./assert/image/Review.png" alt="" />
+            <h3>Chiken Tikka Buffalo Wing ..</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <div class="box-price-item">
+              <p>$3.60</p>
+              <div class="box-button-item">
+                <button>
+                  <img src="./assert/image/Favorite icon.svg" alt="" />
+                </button>
+                <button>
+                  <img src="./assert/image/ic_share_48px 1.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="box-img-item">
+              <img src="./assert/image/Image-product-item6.png" alt="" />
+            </div>
+            <img src="./assert/image/Review.png" alt="" />
+            <h3>Fsish Fry Shashik Freid Fish ..</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <div class="box-price-item">
+              <p>$6.40</p>
+              <div class="box-button-item">
+                <button>
+                  <img src="./assert/image/Favorite icon.svg" alt="" />
+                </button>
+                <button>
+                  <img src="./assert/image/ic_share_48px 1.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="product-button">
+          <p>See All Menu</p>
+          <img src="./assert/image/Icon1.png" alt="" />
+        </button>
+      </div>
+
+      <div class="address_map">
+        <p class="address_map-title-1">Newar Me</p>
+        <h1 class="address_map-title-2">Find us near your citys.</h1>
+        <!-- <div class="address_map-box-map">
+          <div class="pickup-address">
+            <div class="pickup-heading-address">
+              <div class="pickup-heading-address_first">
+                <h1>Pickup restaurent point</h1>
+                <span>Enter your delivery location</span>
+              </div>
+              <div class="pickup-heading-address_second">
+                <img src="./assert/image/Ellipse 1183.png" alt="" />
+                <img src="./assert/image/Ellipse 1184.png" alt="" />
+                <div class="text">
+                  <p>10</p>
+                  <span>m.</span>
+                </div>
+                <img src="./assert/image/Ellipse 1185.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="map"></div>
+        </div> -->
+      </div>
+    </main>
+  </body>
+</html>
